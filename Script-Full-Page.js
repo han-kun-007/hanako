@@ -56,7 +56,7 @@ path = '#?go=';
 if (script_auto_random_post == 'on') {
     var hasilgetlinkarp = false;
     $.ajax({
-        url: '//' + direct_to_link + "/feeds/pages/summary/?alt=json-in-script&orderby=updated&max-results=9999",
+        url: '//' + direct_to_link + "/feeds/pages/default/1642458324860772868",
         type: 'get',
         dataType: 'jsonp',
         success: function aku(younglex) {
